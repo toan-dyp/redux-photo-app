@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/redux-photo-app/static/css/main.c7c224ef.css",
+    "main.js": "/redux-photo-app/static/js/main.d0bb4811.js",
+    "static/css/165.511d19dd.chunk.css": "/redux-photo-app/static/css/165.511d19dd.chunk.css",
+    "static/js/165.09e80d15.chunk.js": "/redux-photo-app/static/js/165.09e80d15.chunk.js",
+    "static/js/787.f7eb3356.chunk.js": "/redux-photo-app/static/js/787.f7eb3356.chunk.js",
+    "static/js/622.46618923.chunk.js": "/redux-photo-app/static/js/622.46618923.chunk.js",
+    "static/media/orange-bg.jpg": "/redux-photo-app/static/media/orange-bg.a98c2734b4299e305b7f.jpg",
+    "static/media/pink-bg.jpg": "/redux-photo-app/static/media/pink-bg.d6dafc0aa74a3594ed43.jpg",
+    "static/media/white-bg.jpg": "/redux-photo-app/static/media/white-bg.06a0216ba398066666ae.jpg",
+    "index.html": "/redux-photo-app/index.html",
+    "main.c7c224ef.css.map": "/redux-photo-app/static/css/main.c7c224ef.css.map",
+    "main.d0bb4811.js.map": "/redux-photo-app/static/js/main.d0bb4811.js.map",
+    "165.511d19dd.chunk.css.map": "/redux-photo-app/static/css/165.511d19dd.chunk.css.map",
+    "165.09e80d15.chunk.js.map": "/redux-photo-app/static/js/165.09e80d15.chunk.js.map",
+    "787.f7eb3356.chunk.js.map": "/redux-photo-app/static/js/787.f7eb3356.chunk.js.map",
+    "622.46618923.chunk.js.map": "/redux-photo-app/static/js/622.46618923.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7c224ef.css",
+    "static/js/main.d0bb4811.js"
+  ]
+}
