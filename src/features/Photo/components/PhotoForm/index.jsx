@@ -9,19 +9,19 @@ import RandomPhotoField from "custom-fields/RandomPhotoField";
 import * as Yup from "yup";
 
 PhotoForm.propTypes = {
+  initialValues: PropTypes.object,
   onSubmit: PropTypes.func,
+  isAddMode: PropTypes.bool,
 };
 
 PhotoForm.defaultProps = {
+  initialValues: {},
   onSubmit: null,
+  isAddMode: false,
 };
 
 function PhotoForm(props) {
-  const initialValues = {
-    title: "",
-    categoryId: null,
-    photo: "",
-  };
+  const { initialValues, isAddMode } = props;
 
   const validationSchema = Yup.object().shape({
     title: Yup.string().required("Không để trống phần này"),
@@ -68,9 +68,13 @@ function PhotoForm(props) {
             />
 
             <FormGroup>
-              <Button type="submit" color="primary">
-                {isSubmitting && <Spinner size="sm" />}
-                Add to album
+              <Button type="submit" color={isAddMode ? "primary" : "success"}>
+                {isSubmitting && (
+                  <>
+                    <Spinner size="sm" />{" "}
+                  </>
+                )}
+                {isAddMode ? "Add to album" : "Upadte your photo"}
               </Button>
             </FormGroup>
           </Form>
