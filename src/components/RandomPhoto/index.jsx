@@ -34,7 +34,6 @@ function RandomPhoto(props) {
     }
   };
 
-  console.log(invalid);
   return (
     <div className={`random-photo ${invalid ? "is-invalid" : ""}`}>
       <div className="random-photo__button">

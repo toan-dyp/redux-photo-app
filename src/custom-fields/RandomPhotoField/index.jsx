@@ -23,7 +23,6 @@ function RandomPhotoField(props) {
     form.setFieldValue(name, newImageUrl);
   };
 
-  console.log(touched[name]);
   return (
     <FormGroup>
       {label && <Label for={name}>{label}</Label>}
